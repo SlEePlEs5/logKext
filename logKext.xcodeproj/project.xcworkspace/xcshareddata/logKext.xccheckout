@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6CBB3366-0797-46B8-8F0A-C6BA69F1EE60</string>
+	<key>IDESourceControlProjectName</key>
+	<string>logKext</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0E237EDB-8F77-4820-B6F0-8FA0D47A14E9</key>
+		<string>https://github.com/SlEePlEs5/logKext.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>logKext.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0E237EDB-8F77-4820-B6F0-8FA0D47A14E9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SlEePlEs5/logKext.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0E237EDB-8F77-4820-B6F0-8FA0D47A14E9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0E237EDB-8F77-4820-B6F0-8FA0D47A14E9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>logKext</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+/usr/bin/find /System/Library/Extensions/logKext.kext -exec /bin/chmod -R g-w {} \;
+/sbin/kextunload -b com.fsb.kext.logKext
+/sbin/kextload /System/Library/Extensions/logKext.kext
+/Library/Application\ Support/logKext/logKextKeyGen
+/bin/launchctl load /Library/LaunchDaemons/logKext.plist
+/usr/bin/open /LogKext\ Readme.html
+
