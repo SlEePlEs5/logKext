@@ -1,74 +1,68 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title>LogKext v2.3</title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1038.25">
   <style type="text/css">
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; min-height: 14.0px}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Times}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Courier}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Courier; min-height: 17.0px}
-    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Times; min-height: 18.0px}
-    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 14.0px Times; color: #0000ee}
-    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 14.0px Times; color: #001de0; min-height: 18.0px}
-    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 14.0px Times; min-height: 18.0px}
-    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Times}
-    span.s1 {text-decoration: underline}
-    span.s2 {font: 14.0px Courier}
+  html
+  {
+  
+    font-family: Times;
+  
+  }	
   </style>
+  <title>LogKext v2.4</title>
 </head>
 <body>
-<h1 style="margin: 0.0px 0.0px 16.0px 0.0px; text-align: center; font: 24.0px Times"><b>logKext v2.3</b></h1>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; text-align: center; font: 14.0px Times"><b>Release Date: 2009-11-18</b></h3>
-<p class="p3"><span class="s1">Summary:</span></p>
-<p class="p3">LogKext is an open source keylogger for Mac OS X, a product of FSB software.</p>
-<p class="p4"><br></p>
-<p class="p3"><span class="s1">Requirements:</span></p>
-<p class="p3">Mac OS X 10.5 or 10.6</p>
-<p class="p4"><br></p>
-<p class="p3"><span class="s1">How to get started:</span></p>
-<h4 style="margin: 0.0px 0.0px 18.0px 0.0px; font: 14.0px Times">Control and usage of logKext is through logKextClient. LogKextClient runs through the Mac OS X Terminal.<span class="Apple-converted-space"> </span></h4>
-<h4 style="margin: 0.0px 0.0px 18.0px 0.0px; font: 14.0px Times"><b>Step 1: Finding the Terminal</b></h4>
-<h4 style="margin: 0.0px 0.0px 18.0px 0.0px; font: 14.0px Times">Locate the Terminal Application (/Applications/Utilities/Terminal)</h4>
-<h4 style="margin: 0.0px 0.0px 18.0px 0.0px; font: 14.0px Times"><b>Step 2: Using the Terminal</b></h4>
-<p class="p6">The window that pops up will have a command prompt that looks something like this:<span class="Apple-converted-space"> </span></p>
-<p class="p7">[Bill's-Computer:~] bill%<span class="Apple-converted-space"> </span></p>
-<p class="p6">At the prompt type the following command and press return:<span class="Apple-converted-space"> </span></p>
-<p class="p8"><br></p>
-<p class="p7">sudo logKextClient</p>
-<p class="p8"><br></p>
-<p class="p6"><b>You will be prompted for your account password (you must be an administrator). Enter it.</b></p>
-<p class="p9"><br></p>
-<p class="p6">Next, logKext will prompt you for your logKext password:<span class="Apple-converted-space"> </span></p>
-<p class="p9"><br></p>
-<p class="p7">logKext password:</p>
-<p class="p8"><br></p>
-<p class="p6">Type in your logKext password. The default password is "<span class="s2">logKext</span>".</p>
-<p class="p6">You will <b>not</b> see the password echoed to the screen as you type it.<span class="Apple-converted-space"> </span></p>
-<p class="p9"><br></p>
-<h4 style="margin: 0.0px 0.0px 18.0px 0.0px; font: 14.0px Times"><b>Step 3: Operating logKextClient</b></h4>
-<p class="p6">LogKextClient is an interactive client that allows you to change preference values that will change the behavior of your keylogger. Type "help" to get the help screen.</p>
-<p class="p9"><br></p>
-<p class="p6">Most likely, you will want to see the logfile! To do this, use the "open" command. It will save the decrypted logfile to your desktop, and open it in a text editor. If you haven't yet typed 100 characters, you will not yet have a logfile. Come back later and try again.<span class="Apple-converted-space"> </span></p>
-<p class="p9"><br></p>
-<h4 style="margin: 0.0px 0.0px 18.0px 0.0px; font: 14.0px Times"><b>Uninstalling logKextClient</b></h4>
-<p class="p6">A standalone script has been installed in your computer's root directory that will uninstall logKext. It is called LogKextUninstall.command.<span class="Apple-converted-space"> </span></p>
-<p class="p9"><br></p>
-<h4 style="margin: 0.0px 0.0px 18.0px 0.0px; font: 14.0px Times"><b>Most Frequently Asked Question: Why is my logfile all gibberish?</b></h4>
-<p class="p6">If you have changed your password or turned encryption on or off, you must delete the logfile before these changes take effect; otherwise your client will try to decrypt using a different password than your daemon is encrypting: this results in "gibberish."</p>
-<p class="p9"><br></p>
-<p class="p6">Use the logKextClient "list" command to see where your logfile is, then quit logKextClient. Find the logfile using the path, and throw it in the trash. If you try to empty the trash, don't worry if it says "File is in use." After a while, you will be able to delete it.</p>
-<p class="p9"><br></p>
-<p class="p6">You can also delete the logfile from the terminal if you know how ("rm &lt;path&gt;") When asked to override permissions, type "yes".<span class="Apple-converted-space"> </span></p>
-<p class="p9"><br></p>
-<p class="p9"><br></p>
-<p class="p10"><span class="s1"><a href="http://code.google.com/p/logkext">Web </a>page for source code and bug reports</span></p>
-<p class="p11"><br></p>
-<p class="p12"><br></p>
-<p class="p13">Note: For security reasons, it is recommended that you change your password from the default setting.<span class="Apple-converted-space"> </span></p>
+<h1 id="logkext" style="text-align: center">logKext v2.4</h1>
+<h3 style="text-align: center">Release Date: 2014-03-01</h2>
+
+<p><span style="text-decoration: underline">Summary</span>:<br />LogKext is an open source keylogger for Mac OS X, a product of FSB software.</p>
+
+<p><span style="text-decoration: underline">Requirements</span>:<br />Mac OS X 10.5.x - 10.9.x</p>
+
+<p><span style="text-decoration: underline">How to get started</span>:<br />Control and usage of logKext is through logKextClient. LogKextClient runs through the Mac OS X Terminal.</p>
+
+<h4 id="step1findingtheterminal">Step 1: Finding the Terminal</h4>
+
+<p>Locate the Terminal Application (<code>/Applications/Utilities/Terminal</code>)</p>
+
+<h4 id="step2usingtheterminal">Step 2: Using the Terminal</h4>
+
+<p>The window that pops up will have a command prompt that looks something like this: <br /><code>Bill's-Computer:~ bill$</code><br /><br />
+At the prompt type the following command and press return:</p>
+
+<pre><code>sudo logKextClient
+</code></pre>
+
+<p>You will be prompted for your account password (you must be an administrator). Enter it. You will not see the password echoed to the screen as you type it.</p>
+
+<p>Next, logKext will prompt you for your logKext password:</p>
+
+<pre><code>logKext password:
+</code></pre>
+
+<p>Type in your logKext password. The default password is "logKext". You will not see the password echoed to the screen as you type it.</p>
+
+<h4 id="step3operatinglogkextclient">Step 3: Operating logKextClient</h4>
+
+<p>LogKextClient is an interactive client that allows you to change preference values that will change the behavior of your keylogger. Type <code>help</code> to get the help screen.</p>
+
+<p>Most likely, you will want to see the logfile! To do this, use the <code>open</code> command. It will save the decrypted logfile to your desktop, and open it in a text editor. If you haven't yet typed 100 characters, you will not yet have a logfile. Come back later and try again.</p>
+
+<h4 id="uninstallinglogkextclient">Uninstalling logKextClient</h4>
+
+<p>A standalone script has been installed in your computer's root directory that will uninstall logKext. It is called <code>LogKextUninstall.command</code>. Double-click it to run.</p>
+
+<h4 id="mostfrequentlyaskedquestionwhyismylogfileallgibberish">Most Frequently Asked Question: Why is my logfile all gibberish?</h4>
+
+<p>If you have changed your password or turned encryption on or off, you must delete the logfile before these changes take effect; otherwise your client will try to decrypt using a different password than your daemon is encrypting: this results in "gibberish".</p>
+
+<p>Use the logKextClient <code>list</code> command to see where your logfile is, then quit logKextClient. Find the logfile using the path, and throw it in the trash. If you try to empty the trash, don't worry if it says: <code>The operation can't be completed because the item "com.fsb.logKext" is in use</code>. <br />
+After a while, you will be able to delete it.</p>
+
+<p>You can also delete the logfile from the terminal if you know how ( <code>sudo rm -f &lt;path&gt;</code> ). You will need to enter your administrator password.</p>
+
+<p style="text-align: center"><a href="https://github.com/SlEePlEs5/logKext">Project page (source code and bug reports)</a></p>
+
+<p><strong>Note: For security reasons, it is recommended that you change your password from the default setting.</strong></p>
 </body>
 </html>

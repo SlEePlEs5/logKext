@@ -17,7 +17,7 @@
 	<key>CFBundleSignature</key>
 	<string>fsbs</string>
 	<key>CFBundleVersion</key>
-	<string>2.3</string>
+	<string>2.4</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>logKext</key>
