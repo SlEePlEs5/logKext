@@ -4,7 +4,7 @@ Summary:
 LogKext is an open source keylogger for Mac OS X, a product of FSB software.
 
 Requirements:
-Mac OS X 10.5.x - 10.9.x (32-bit or 64-bit kernel)
+Mac OS X 10.7.x - 10.9.x (64-bit kernel)
 
 Details:
 Simply install the package and logKext will begin running and logging all keystrokes.  
@@ -22,11 +22,11 @@ Summary:\
 LogKext is an open source keylogger for Mac OS X, a product of FSB software.\
 \
 Requirements:\
-Mac OS X 10.5.x - 10.9.x (32-bit or 64-bit kernel)\
+Mac OS X 10.7.x - 10.9.x (64-bit kernel)\
 \
 Details:\
 Simply install the package and logKext will begin running and logging all keystrokes.  \
 A logKext help HTML file will be installed in your root directory and opened after installation.\
 LogKext v2.4 also includes a stand-alone script to uninstall logKext.\
 \
-https://github.com/SlEePlEs5/logKext}]]></resource></locale></resources><requirements><requirement id="sosv" operator="ge" value="'10.5.0'"/></requirements><flags/><extra-files/><item type="file">01logkext.xml</item><item type="file">02logkextuninstall.xml</item><item type="file">03logkext.xml</item><item type="file">04logkextkeymap.xml</item><item type="file">05logkext.xml</item><item type="file">06logkextdaemon.xml</item><item type="file">07logkextclient.xml</item><item type="file">08logkextkeygen.xml</item><mod>description</mod><mod>properties.title</mod><mod>properties.anywhereDomain</mod><mod>properties.userDomain</mod><mod>postinstallActions.actions</mod><mod>extraFiles</mod><mod>properties.customizeOption</mod><mod>properties.systemDomain</mod></pkmkdoc>
+https://github.com/SlEePlEs5/logKext}]]></resource></locale></resources><requirements><requirement id="sosv" operator="ge" value="'10.7.0'"/></requirements><flags/><extra-files/><item type="file">01logkext.xml</item><item type="file">02logkextuninstall.xml</item><item type="file">03logkext.xml</item><item type="file">04logkextkeymap.xml</item><item type="file">05logkext.xml</item><item type="file">06logkextdaemon.xml</item><item type="file">07logkextclient.xml</item><item type="file">08logkextkeygen.xml</item><mod>description</mod><mod>properties.title</mod><mod>properties.anywhereDomain</mod><mod>properties.userDomain</mod><mod>postinstallActions.actions</mod><mod>extraFiles</mod><mod>properties.customizeOption</mod><mod>properties.systemDomain</mod></pkmkdoc>

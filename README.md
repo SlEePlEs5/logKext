@@ -8,7 +8,7 @@ Release Date: 2014-03-01
 
 Summary: LogKext is an open source keylogger for Mac OS X, a product of FSB software.
 
-Requirements: Mac OS X 10.5.x - 10.9.x
+Requirements: Mac OS X 10.7.x - 10.9.x
 
 ###Details
 How to get started: Control and usage of logKext is through logKextClient. LogKextClient runs through the Mac OS X Terminal.
